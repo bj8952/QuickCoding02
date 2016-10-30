@@ -33,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
         //     ① 타이머를 설정하여 GPS_PROVIDER 에서 일정시간 응답이 없는 경우 NETWORK_PROVIDER로 전환
         //     ② 혹은, 둘다 한꺼번헤 호출하여 들어오는 값을 사용하는 방식.
 
+        int aa[][] = new int[24][4] ;
+
+
         tv = (TextView) findViewById(R.id.textView2);
         tv.setText("위치정보 미수신중");
 
